@@ -9,7 +9,7 @@ import { Separator } from './components/ui/Separator';
 import { Search, UploadCloud, Download } from 'lucide-react';
 import * as XLSX from 'xlsx';
 
-import { deedData, generalSearchFields } from './data/deed-data';
+import { deedData, generalSearchFields } from './data/deed-data-new';
 import { DeedEntry, SearchType, TableViewType } from './types';
 
 const getDeedEntryKey = (entry: DeedEntry): string => {
@@ -485,7 +485,7 @@ export default function App() {
             <div className="mt-4 flex items-center justify-center space-x-6 text-white/80 text-sm">
               <span className="flex items-center">
                 <div className="w-2 h-2 bg-green-400 rounded-full mr-2"></div>
-                194 Properties Indexed
+                {deedData.length} Properties Indexed
               </span>
               <span className="flex items-center">
                 <div className="w-2 h-2 bg-blue-400 rounded-full mr-2"></div>
@@ -911,7 +911,7 @@ export default function App() {
               &copy; {currentYear ?? new Date().getFullYear()} DeedFind. Professional Property Search System.
             </p>
             <div className="flex items-center justify-center space-x-6 text-xs text-muted-foreground">
-              <span>194 Properties Indexed</span>
+              <span>{deedData.length} Properties Indexed</span>
               <span>•</span>
               <span>Real-time Search</span>
               <span>•</span>
