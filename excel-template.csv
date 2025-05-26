@@ -1,0 +1,11 @@
+Building Number,Plot Number,Hajry Code,Reference,Description
+1143,A3-14,SH(A3-01),A3,Sample Property 1
+1144,A3-15,SH(A3-02),A3,Sample Property 2
+1145,A3-16,SH(A3-03),A3,Sample Property 3
+108,B2-01,SH(B2-01),B2,Test Property 108
+109,B2-02,SH(B2-02),B2,Test Property 109
+110,B2-03,SH(B2-03),B2,Test Property 110
+OMZ1,108,SH8,1142,Special Zone Property
+A,200,SH(B1-01),B1,Apartment Block A
+B,201,SH(B1-02),B1,Apartment Block B
+C,202,SH(B1-03),B1,Apartment Block C
